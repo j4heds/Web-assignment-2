@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    background-color: rgb(249, 249, 236);
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.flex-item {
+    margin: 10px;
+    text-decoration: none;
+    color: azure;
+}
+
+.action {
+    border: 2px solid rgb(86, 136, 11);
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.flex-item:hover {
+    color: blanchedalmond;
+    border-radius: 15px;
+}
+
+.action:hover {
+    background-color: rgba(151, 237, 219, 0.4);
+}
+
+.logo {
+    color: azure;
+    padding: 4px;
+    margin-left: 5px;
+}
+
+.logo h2, .logo h5 {
+    margin: 0;
+}
+
+.header {
+    background-image: url(images/abstract-textured-backgound.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.start {
+    text-align: center;
+    margin-top: 150px;
+    color: azure;
+}
+
+.start h3 {
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 2px;
+}
+
+.start h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+.start .learn-more {
+    background-color: rgba(78, 155, 129, 0.7);
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+.start .learn-more:hover {
+    background-color: rgba(151, 237, 219, 0.8);
+}
+
+.demo-paragraph {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.demo-paragraph h2 {
+    font-family: cursive;
+}
+
+.demo-paragraph p {
+    font-style: italic;
+}
+
+.images .img {
+    width: 500px;
+    height: 300px;
+    margin: 3px;
+}
+
+.images {
+    width: 75%;
+    margin: auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-and-action {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 75px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.about-and-action .about {
+    width: 500px;
+}
+
+.about-and-action h3 {
+    color: rgb(44, 195, 144);
+    text-transform: uppercase;
+}
+
+.about-and-action p {
+    font-style: italic;
+}
+
+.about-and-action a {
+    text-decoration: none;
+    color: rgb(44, 195, 144);
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(28, 26, 26);
+}
+
+#footer-container {
+    background-color: rgb(51, 49, 49);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-item {
+    height: 25px;
+    margin-right: 20px;
+}
+
+.copyright {
+    color: azure;
+    text-align: center;
+}
+
+.copyright h6 {
+    text-transform: uppercase;
+}
